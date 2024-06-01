@@ -11,7 +11,7 @@ const Header = () => {
 
   const handleLogin = (event) => {
     event.preventDefault();
-    // Aquí manejarías el login, por ejemplo, enviando un request al servidor
+  
     console.log('Login con:', username, password);
   };
   
@@ -27,7 +27,7 @@ const Header = () => {
               value={username}
               onChange={(e) => setUsername(e.target.value)}
               placeholder="Nombre de usuario"
-              className="input" // Asegúrate de tener estilos definidos para esta clase o usar TailwindCSS
+              className="input"
             />
             <input
               type="password"

@@ -116,7 +116,7 @@ const Animo = () => {
             const updatedMoods = allMoods.filter(mood => mood.id !== id);
             setAllMoods(updatedMoods);
         } else {
-            alert('Error al eliminar el estado de ánimo');
+            alert('Test Error al eliminar el estado de ánimo');
         }
     } catch (error) {
         console.error('Error al eliminar el estado de ánimo:', error);

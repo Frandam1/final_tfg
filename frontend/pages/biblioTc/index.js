@@ -1,21 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 // icons
-import {
-  FaHtml5,
-  FaCss3,
-  FaJs,
-  FaReact,
-  FaWordpress,
-  FaFigma,
-} from "react-icons/fa";
 
-import {
-  SiNextdotjs,
-  SiFramer,
-  SiAdobexd,
-  SiAdobephotoshop,
-} from "react-icons/si";
 
 
 //  data
@@ -61,19 +47,19 @@ const aboutData = [
     ],
   },
   {
-    title: 'Alternativas',
+    title: 'Redimensionamiento',
     info: [
       {
-        title: 'Web Development - ABC University, LA, CA',
-        stage: '2011',
+        title: 'Esta técnica implica cambiar la escala de la importancia de tus preocupaciones, ayudándote a poner los problemas en una perspectiva más realista',
+        stage: ' ',
       },
       {
-        title: 'Computer Science Diploma - AV Technical Institute',
-        stage: '2009',
+        title: 'Cuando sientas que un problema es demasiado grande y te abruma, intenta visualizarlo como algo pequeño o menos significativo en el gran esquema de tu vida',
+        stage: ' ',
       },
       {
-        title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-        stage: '2006',
+        title: 'Utiliza esta técnica cuando te enfrentes a desafíos que parecen insuperables y necesites reducir la carga emocional que representan',
+        stage: ' ',
       },
     ],
   },
